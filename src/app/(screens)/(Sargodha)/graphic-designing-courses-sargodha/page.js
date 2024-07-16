@@ -1,4 +1,4 @@
-import Graphicdesin from "./graphicsargodha";
+import Graphicdesin from "./Graphicsargodha";
 
 export default async function Graphicserver() {
     const metadata = await fetch('https://www.admin786.pnytrainings.com/api/city/specialpage/graphic-designing-courses-sargodha')
