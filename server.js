@@ -4,7 +4,7 @@ const next = require('next')
  
 const dev = "npm start -p 10001"
 const hostname = 'localhost'
-const port = 3000
+const port = 10001
 // when using middleware `hostname` and `port` must be provided below
 const app = next({ dev, hostname, port })
 const handle = app.getRequestHandler()
